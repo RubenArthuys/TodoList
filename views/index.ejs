@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+
+    <div id="list_section">
+      <h1>To-do list</h1>
+
+      <ul id="ul">
+        <li>Code with music</li>
+        <li>Go to the museum</li>
+      </ul>
+      
+      <form id="form" onSubmit="return false;">
+      <!-- <form id="form"> -->
+        <label>To do &rarr;</label>
+        <input type="text" id="text" placeholder="What do you need to do" />
+        <input type="button" id="add" value="Add"/>
+      </form>
+    </div>
+
+    <script src="activeList.js"></script>
+  </body>
+</html>
