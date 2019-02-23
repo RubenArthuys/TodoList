@@ -1,7 +1,5 @@
 var ul = document.getElementById('ul');
-var list = document.getElementsByTagName('li');
 var submit = document.getElementById('add');
-var form = document.getElementById('form');
 var input = document.getElementById('text');
 
 submit.addEventListener('click', function(e) {
